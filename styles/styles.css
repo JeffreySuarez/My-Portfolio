@@ -992,14 +992,15 @@ section {
         grid-template-columns: 1fr;
     -ms-grid-rows: 40% 60%;
         grid-template-rows: 40% 60%;
-    padding-bottom: 4rem;
+    padding-bottom: 6rem;
   }
   .left-header {
     width: 90%;
     margin: 0 auto;
   }
   .left-header .h-shape {
-    padding-top: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
     width: 100% !important;
     background-color: var(--color-primary) !important;
   }
