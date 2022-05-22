@@ -71,6 +71,111 @@
         width: 95% !important;
        
     }
+//====================================================//
+//Seccion About//
+
+    .main-title{
+        h2{
+            padding-top: 2rem;
+            font-size: 3rem;
+        }
+
+        .bg-text{
+          padding-top: 2rem;
+            font-size: 4rem !important;
+        }
+    }
+
+    .about-container{
+        grid-template-columns: 1fr ;
+        .right-about{
+            grid-template-columns: 1fr;
+            padding-top: 2.5rem;
+        }
+        .left-about{
+            padding-right: 0px;
+            p{
+                padding-left: 0;
+            }
+
+        }
+    }
+
+    .about-stats{
+        .skills{
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    .timeline{
+        grid-template-columns: 1fr;
+    }
+    .section{
+        padding: 2rem 2.5rem ;
+    }
+//===========================================//
+//Section blog
+    .blogs-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .blogs{
+        margin-top: 3.5rem;
+      
+        width: 70%;
+       
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+        .blog{
+
+        }
+      
+    }
+//===========================================//
+//Section Portfolio
+    .portfolios{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+    .port-text{
+        margin-top: 3rem;
+    }
+//===========================================//
+//Section Contact
+
+    .contact-content-container{
+        flex-direction: column;
+        .right-contact{
+           
+            margin-left: 0;
+            margin-top: 2.5rem;
+            .contact-form{
+                width: 100%;
+            }
+        }
+        .left-contact{
+            .contact-icons{
+              .contact-icon{
+                  justify-content: center;
+              }
+                
+            }
+        }
+    }
+    .contact-content-container .right-contact .input-control-two{
+        flex-direction: column;
+
+    } 
+  
+
+    .contact-content-container .right-contact .input-control-two :last-child{
+        margin-left: 0 !important;
+        margin-top: 1.5rem;
+    } 
+ 
+    //==========================================//
     .controlls{
         top: auto;
         bottom: 0;
@@ -85,9 +190,7 @@
         }
     }
 
-    //=====================================//@at-root
-    //seccion about
-
+  
 
 
 }
