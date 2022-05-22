@@ -991,13 +991,14 @@ section {
     height: 50px;
   }
   .header-content {
-    margin: 0;
+    margin-top: 3rem;
     padding: 0;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: 40% 60%;
         grid-template-rows: 40% 60%;
-    padding-bottom: 6rem;
+    padding-bottom: 2rem;
+    margin-bottom: 4rem;
   }
   .left-header {
     width: 90%;

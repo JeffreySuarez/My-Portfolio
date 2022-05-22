@@ -44,11 +44,12 @@
 
     //cambios de la grilla
     .header-content{
-        margin: 0;
+        margin-top: 3rem;
         padding: 0;
         grid-template-columns: 1fr;
         grid-template-rows: 40% 60%;
-        padding-bottom: 6rem;
+        padding-bottom: 2rem;
+        margin-bottom: 4rem;
         
     }
     .left-header{
