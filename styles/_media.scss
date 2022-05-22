@@ -1,0 +1,93 @@
+
+// creacion de variables
+
+:root{
+    --color-primary: #191d2b;
+    --color-secondary: #27AE60;
+    --color-white: #FFFFFF;
+    --color-black: #000;
+    --color-grey0: #f8f8f8;
+    --color-grey1: #dbe1e8;
+    --color-grey2: #b2becd;
+    --color-grey3: #6c7983;
+    --color-grey4: #454e56;
+    --color-grey5: #2a2e35;
+    --color-grey6: #12181b;
+    --br-sm-2: 14px;
+    --box-shadow-1: 0 3px 15px rgba(0,0,0,.3)
+    
+}
+
+
+
+
+
+@media screen and (max-width: 600px){
+
+    //====================================//
+    //seccion header//
+    header{
+        padding: 0;
+        min-height: 100vh !important;
+    }  
+    header .right-header{
+        padding: 2rem !important;
+    }
+    .theme-btn{
+        width: 50px;
+        height: 50px;
+    }
+
+    //cambios de la grilla
+    .header-content{
+        grid-template-columns: 1fr;
+        grid-template-rows: 40% 60%;
+        padding-bottom: 4rem;
+        
+    }
+    .left-header{
+        width: 90%;
+        margin: 0 auto;
+        .h-shape{
+          
+            width: 100% !important;
+            background-color: var(--color-primary) !important;
+        }
+    }
+   
+    .right-header{
+        grid-row: 1;
+        width: 95%;
+        margin: 0 auto;
+        .name{
+            font-size: 1rem !important;
+        }
+       
+
+    }
+    .header-content .left-header .image{
+        left: auto !important;
+        margin: 0 auto !important;
+        width: 95% !important;
+       
+    }
+    .controlls{
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translatex(-50%);
+        width: 100%;
+        background-color: var(--color-grey5);
+        .control{
+            margin: 1rem .3rem;
+        }
+    }
+
+    //=====================================//@at-root
+    //seccion about
+
+
+
+}
