@@ -999,6 +999,7 @@ section {
     margin: 0 auto;
   }
   .left-header .h-shape {
+    padding-top: 2rem;
     width: 100% !important;
     background-color: var(--color-primary) !important;
   }
