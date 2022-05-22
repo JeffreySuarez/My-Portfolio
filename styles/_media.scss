@@ -28,9 +28,14 @@
     //seccion header//
     header{
         padding: 0;
-        min-height: 100vh !important;
+        height: 100%;
+     
     }  
     header .right-header{
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+       
+      
         padding: 2rem !important;
     }
     .theme-btn{
@@ -40,6 +45,8 @@
 
     //cambios de la grilla
     .header-content{
+        margin: 0;
+        padding: 0;
         grid-template-columns: 1fr;
         grid-template-rows: 40% 60%;
         padding-bottom: 6rem;
@@ -47,7 +54,7 @@
     }
     .left-header{
         width: 90%;
-        margin: 0 auto;
+        margin: 2rem auto;
         .h-shape{
             margin-top: 2rem;
             margin-bottom: 6rem;
@@ -107,6 +114,13 @@
     .about-stats{
         .skills{
             grid-template-columns: 1fr 1fr;
+        }
+    }
+    .skills{
+        .skill{
+            h4{
+                font-size: 1.5rem;
+            }
         }
     }
 
