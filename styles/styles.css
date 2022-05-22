@@ -977,6 +977,7 @@ section {
 
 @media screen and (max-width: 600px) {
   header {
+    margin-top: 1rem;
     padding: 0;
     height: 100%;
   }
